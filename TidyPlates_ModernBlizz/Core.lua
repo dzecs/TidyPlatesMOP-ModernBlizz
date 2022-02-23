@@ -231,20 +231,6 @@ local CopyTable = TidyPlatesUtility.copyTable
 local StyleTextOnly = CopyTable(DefaultStyle)
 StyleTextOnly.threatborder.texture = EmptyTexture
 
--- Just testing
---[[
-StyleTextOnly.threatborder.texture = ArtworkPath.."WarningGlowCircle"
-StyleTextOnly.threatborder.width = 40
-StyleTextOnly.threatborder.height = 40
-StyleTextOnly.threatborder.y = VerticalAdjustment
---]]
-
---[[
-StyleTextOnly.threatborder.texture = "Interface\\Addons\\TidyPlatesHub\\shared\\Aggro"
-StyleTextOnly.threatborder.width = 128
-StyleTextOnly.threatborder.height = 64
-StyleTextOnly.threatborder.y = VerticalAdjustment -8 -16
---]]
 
 StyleTextOnly.healthborder.y = VerticalAdjustment - 24
 StyleTextOnly.healthborder.height = 64
