@@ -94,7 +94,7 @@ DefaultStyle.spelltext = {
 	height = 11,
 	x = CastBarHorizontalAdjustment - 10,
 	--NameTextVerticalAdjustment +
-	y = CastBarVerticalAdjustment + 3,
+	y = CastBarVerticalAdjustment + 2,
 	align = "CENTER",
 	anchor = "CENTER",
 	vertical = "CENTER",
