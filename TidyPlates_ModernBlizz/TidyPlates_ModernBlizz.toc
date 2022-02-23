@@ -1,0 +1,9 @@
+## Interface: 50400
+## Title: Tidy Plates: ModernBlizz Theme
+## Notes: Modified by Googlechrome
+## Author: Binny
+## Dependencies: TidyPlates, TidyPlatesHub
+
+Core.lua
+
+
