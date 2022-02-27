@@ -27,11 +27,11 @@ local Theme = {}
 local DefaultStyle = {}
 
 DefaultStyle.highlight = {
-	-- texture =					ArtworkPath..""
+	texture = EmptyTexture
 }
 
 DefaultStyle.healthborder = {
-	texture		 =				ArtworkPath.."Dark-Border",
+	texture =					ArtworkPath.."Dark-Border",
 	width = 150,
 	height = 45,
 	y = VerticalAdjustment,
@@ -39,8 +39,8 @@ DefaultStyle.healthborder = {
 }
 
 DefaultStyle.healthbar = {
-	texture =					 ArtworkPath.."BlizzBar",
-	backdrop =					 ArtworkPath.."BlizzBG",
+	texture =					ArtworkPath.."BlizzBar",
+	backdrop =					ArtworkPath.."BlizzBG",
 	width = 120,
 	height = 13,
 	x = 0,
@@ -49,7 +49,7 @@ DefaultStyle.healthbar = {
 
 
 DefaultStyle.castborder = {
-	-- texture =					ArtworkPath.."N",
+	texture = 					EmptyTexture,
 	width = 128,
 	height = 32,
 	x = CastBarHorizontalAdjustment,
@@ -58,7 +58,7 @@ DefaultStyle.castborder = {
 }
 
 DefaultStyle.castnostop = {
-	-- texture =					ArtworkPath.."",
+	texture =					EmptyTexture,
 	width = 128,
 	height = 32,
 	x = CastBarHorizontalAdjustment,
@@ -106,7 +106,7 @@ DefaultStyle.spelltext = {
 --]]
 
 DefaultStyle.threatborder = {
-	-- texture =				ArtworkPath.."",
+					EmptyTexture,
 	width = 256,
 	height = 64,
 	y = VerticalAdjustment + 1,
@@ -116,7 +116,7 @@ DefaultStyle.threatborder = {
 
 
 DefaultStyle.target = {
-	texture = ArtworkPath.."White-Border",
+	texture =			 ArtworkPath .. "White-Border",
 	width = 150,
 	height = 40,
 	x = 0,
@@ -137,7 +137,7 @@ DefaultStyle.raidicon = {
 
 -- [[
 DefaultStyle.eliteicon = {
-	-- texture = ArtworkPath.."",
+	texture	= 			EmptyTexture,
 	width = 14,
 	height = 14,
 	x = -44,
@@ -147,19 +147,8 @@ DefaultStyle.eliteicon = {
 }
 --]]
 
---[[
-DefaultStyle.eliteicon = {
-	texture		 =				ArtworkPath.."",
-	width = 128,
-	height = 32,
-	y = VerticalAdjustment,
-	show = true,
-	anchor = "CENTER",
-}
---]]
-
 DefaultStyle.skullicon = {
-	-- texture = ArtworkPath.."",
+	texture = 			EmptyTexture,
 	width = 14,
 	height = 14,
 	x = -32,
