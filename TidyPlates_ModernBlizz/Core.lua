@@ -103,10 +103,8 @@ DefaultStyle.spelltext = {
 	show = true,
 }
 
---]]
-
 DefaultStyle.threatborder = {
-					EmptyTexture,
+	texture =			EmptyTexture,
 	width = 256,
 	height = 64,
 	y = VerticalAdjustment + 1,
@@ -128,7 +126,7 @@ DefaultStyle.target = {
 DefaultStyle.raidicon = {
 	width = 22,
 	height = 22,
-	x = -80,
+	x = -75,
 	y = VerticalAdjustment,
 	anchor = "CENTER",
 	texture = "Interface\\TargetingFrame\\UI-RaidTargetingIcons",
@@ -179,8 +177,8 @@ DefaultStyle.level = {
 	height = 11,
 	x = 5,
 	y = VerticalAdjustment + 5,
-	align = "LEFT",
-	anchor = "LEFT",
+	align = "RIGHT",
+	anchor = "RIGHT",
 	vertical = "CENTER",
 	flags = "OUTLINE",
 	shadow = false,
@@ -280,13 +278,13 @@ Theme["NameOnly-NoDescription"] = TextNoDescription
 
 -- Widget
 local WidgetConfig = {}
-WidgetConfig.ClassIcon = { anchor = "TOP" , x = 30 ,y = VerticalAdjustment -1 }
+WidgetConfig.ClassIcon = { anchor = "RIGHT" , x = 35 ,y = VerticalAdjustment - 1 }
 WidgetConfig.TotemIcon = { anchor = "TOP" , x = 0 ,y = VerticalAdjustment + 2 }
 WidgetConfig.ThreatLineWidget = { anchor =  "CENTER", x = 0 ,y = VerticalAdjustment + 4 }
 WidgetConfig.ThreatWheelWidget = { anchor =  "CENTER", x = 36 ,y = VerticalAdjustment + 12 } -- "CENTER", plate, 30, 18
 WidgetConfig.ComboWidget = { anchor = "CENTER" , x = 0 ,y = VerticalAdjustment + 9.5 }
 WidgetConfig.RangeWidget = { anchor = "CENTER" , x = 0 ,y = VerticalAdjustment + 0 }
-WidgetConfig.DebuffWidget = { anchor = "CENTER" , x = 18 ,y = VerticalAdjustment + 40 }
+WidgetConfig.DebuffWidget = { anchor = "CENTER" , x = 17 ,y = VerticalAdjustment + 40 }
 if (UnitClassBase("player") == "Druid") or (UnitClassBase("player") == "Rogue") then
 	WidgetConfig.DebuffWidgetPlus = { anchor = "CENTER" , x = 15 ,y = VerticalAdjustment + 24 }
 end
